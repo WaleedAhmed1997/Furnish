@@ -1,0 +1,104 @@
+/****************************/
+/* Below 1200px (landscape tablets)*/
+/****************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.2%;
+  }
+
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+    row-gap: 6.4rem;
+  }
+
+  .grid-3-columns {
+    row-gap: 3.2rem;
+  }
+
+  .header-content {
+    text-align: center;
+    margin-top: 3.2rem;
+  }
+
+  .header-content img {
+    width: 60%;
+    justify-self: center;
+  }
+}
+
+/****************************/
+/* Below 900px (potrait tablets)*/
+/****************************/
+@media (max-width: 56em) {
+  html {
+    font-size: 46%;
+  }
+
+  .grid-3-columns {
+    column-gap: 2.4rem;
+  }
+
+  #navbar {
+    padding: 3.2rem;
+  }
+  .header-content {
+    margin-top: 10rem;
+  }
+
+  .header-content img {
+    width: 50%;
+    justify-self: center;
+  }
+
+  header,
+  section {
+    margin-bottom: 3.2rem;
+  }
+}
+
+/****************************/
+/* Below 600px (phone)*/
+/****************************/
+
+@media (max-width: 38em) {
+  html {
+    font-size: 44%;
+  }
+
+  .m-heading {
+    font-size: 3rem;
+  }
+
+  #navbar {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 6.4rem;
+  }
+
+  #navbar .logo {
+    margin-bottom: 1.6rem;
+  }
+
+  .header-content img {
+    width: 60%;
+  }
+
+  .grid-3-columns {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+  }
+
+  header,
+  section {
+    margin-bottom: 2.4rem;
+  }
+
+  .sofa,
+  .product,
+  .testimonial {
+    width: 85%;
+    justify-self: center;
+  }
+}
